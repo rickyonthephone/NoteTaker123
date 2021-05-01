@@ -14,13 +14,10 @@ const app = express();
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
 app.use(express.static('public'));
-app.use('/', htmlRoutes);
-app.use('/api', apiRoutes);
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'));
-    
-})
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
+
 
    
   app.listen(PORT, function (){

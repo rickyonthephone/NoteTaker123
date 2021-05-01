@@ -8,7 +8,6 @@ const createId = require('../utils/createId.js')
 
 router.route('/notes') 
     .get ((req, res) => {
-        // path.join(__dirname, '../db/db.json')
         fs.readFile(path.join(__dirname, '../db/db.json'), (err, data) =>{
             if (err) {
                 console.log(err);
