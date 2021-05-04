@@ -10,6 +10,11 @@ code: https://github.com/rickyonthephone/NoteTaker123
 
 deployment: https://rcnotetaker2021.herokuapp.com/ 
 
+demo: https://youtu.be/VGMjKskCurM
+
+
+screenshot: 
+![screenshot](https://github.com/rickyonthephone/NoteTaker123/blob/master/public/assets/Screen%20Shot%202021-05-04%20at%202.18.17%20PM.png)
 
 
 
